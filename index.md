@@ -1,4 +1,4 @@
-# This blog was created for my ST 558 class.  
+# I am in a statistics Masters Program and this blog was created for my ST 558 class.  
 
 ## It will primarily be used for the following 
 
