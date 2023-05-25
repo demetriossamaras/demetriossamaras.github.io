@@ -1,1 +1,1 @@
-This blog was created for my ST 558 class.  
+#This blog was created for my ST 558 class.  
