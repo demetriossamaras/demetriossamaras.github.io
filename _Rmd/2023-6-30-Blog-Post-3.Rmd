@@ -1,0 +1,38 @@
+---
+title: "Blog_Post_3"
+author: "Demetrios Samaras"
+date: "2023-06-30"
+output: github_document
+---
+
+```{r setup, include=FALSE, eval=FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval = TRUE, message = FALSE)
+
+rmarkdown::render("C:/Users/Demetri/Documents/NCSU_masters/ST558/Repos/demetriossamaras.github.io/_Rmd/2023-6-30-Blog-Post-3.Rmd", output_format = "github_document" , output_dir = "../_posts", output_options = list(html_preview = FALSE, keep_html = FALSE))
+
+```
+
+
+
+### We are done learning about how to program in R (and now we are looking at fitting models and other fun stuff).  Write a post about what you consider the coolest thing you've learned about programming in R.  Include an example of it (or at least the code to do it) in your post (for instance, if it was ggplot you could read in a data set and create a cool plot).
+
+So far there have been a lot of cool things that we have learned how to do in R. I think that for me the most interesting thing that we have learned how to do is write functions. I think that the ability to make something that is essentially a tool to do a job is really cool. My favorite type is the `apply` family of functions because it allows you to loop through your function using whatever values you want to run the function of interest rather than running it a bunch of times. Here is an example of an apply function and its output. 
+
+```{r apply example}
+## runs this function on the first 100 integers 
+example <- sapply(1:100, function(i){
+  ## checks if even 
+  if((i %% 2) == 0) {
+    n<- i/2
+  } 
+  ## checks if odd
+  if((i %% 2)!= 0){
+    n <- 3*i+1
+  }
+  n
+}
+)
+
+example
+```
+
