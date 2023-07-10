@@ -9,25 +9,30 @@ username.github.io/repo-name site and the repo itself (the username may
 correspond to your partner). You should then also reflect on the process
 you went through. Discuss the following: links:
 
-repo
-(<https://github.com/kgolden4514/ST_558_Project_2>)\[<https://github.com/kgolden4514/ST_558_Project_2>\]
+repo <https://github.com/kgolden4514/ST_558_Project_2>
 
-pages
-(<https://kgolden4514.github.io/Tech.html>)\[<https://kgolden4514.github.io/Tech.html>\]
-(<https://kgolden4514.github.io/World.html>)\[<https://kgolden4514.github.io/World.html>\]
-(<https://kgolden4514.github.io/Social.Media.html>)\[<https://kgolden4514.github.io/Social.Media.html>\]
-(<https://kgolden4514.github.io/Lifestyle.html>)\[<https://kgolden4514.github.io/Lifestyle.html>\]
-(<https://kgolden4514.github.io/Entertainment.html>)\[<https://kgolden4514.github.io/Entertainment.html>\]
-(<https://kgolden4514.github.io/Business.html>)\[<https://kgolden4514.github.io/Business.html>\]
+pages <https://kgolden4514.github.io/Tech.html>
+
+<https://kgolden4514.github.io/World.html>
+
+<https://kgolden4514.github.io/Social.Media.html>
+
+<https://kgolden4514.github.io/Lifestyle.html>
+
+<https://kgolden4514.github.io/Entertainment.html>
+
+<https://kgolden4514.github.io/Business.html>
 
 what would you do differently?
 
-The main thing that I would do differently is try to make sure that the
-random forest was always cached and only use a single mtry because the
-random forest takes forever to run. I would also have the repo/pages
-setup sooner because even though our project was basically done we ran
-into some issues getting the rendered documents to show graphs and
-having the pages show up properly on the due date.
+The main thing that I would do differently is make sure the .md rendered
+properly before hand because it broke right before trying to submit. I
+would also try to make sure that the random forest was always cached and
+only use a single mtry because the random forest takes forever to run. I
+would also have the repo/pages setup sooner because even though our
+project was basically done we ran into some issues getting the rendered
+documents to show graphs and having the pages show up properly on the
+due date.
 
 what was the most difficult part for you?
 
