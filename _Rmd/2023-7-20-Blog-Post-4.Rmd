@@ -7,7 +7,13 @@ output: github_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, eval = TRUE, message = FALSE)
+
 ```
+
+```{r render , echo=FALSE, eval=FALSE}
+rmarkdown::render("C:/Users/Demetri/Documents/NCSU_masters/ST558/Repos/demetriossamaras.github.io/_Rmd/2023-7-20-Blog-Post-4.Rmd", output_format = "github_document" , output_dir = "../_posts", output_options = list(html_preview = FALSE, keep_html = FALSE))
+```
+
 
 We just finished our section on machine learning (woot).  What method did you find most interesting?  Write a little about the method, fit the model on some data, and provide any relevant output. 
 
