@@ -6,12 +6,12 @@ output: github_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, eval = TRUE, message = FALSE)
+knitr::opts_chunk$set(fig.path = "../images/", echo = TRUE, eval = TRUE, message = FALSE)
 
 ```
 
 ```{r render , echo=FALSE, eval=FALSE}
-rmarkdown::render("C:/Users/Demetri/Documents/NCSU_masters/ST558/Repos/demetriossamaras.github.io/_Rmd/2023-7-20-Blog-Post-4.Rmd", output_format = "github_document" , output_dir = "../_posts", output_options = list(html_preview = FALSE, keep_html = FALSE))
+rmarkdown::render("C:/Users/Demetri/Documents/NCSU_masters/ST558/Repos/demetriossamaras.github.io/_Rmd/2023-7-20-Blog-Post-4.Rmd", output_format = "github_document", output_options = list(html_preview = FALSE, keep_html = FALSE))
 ```
 
 
